@@ -1,9 +1,103 @@
-<mxfile host="app.diagrams.net" modified="2023-06-15T06:16:58.161Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" version="21.3.2" etag="fWozPV6PquIim4Ajls25" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-16T11:07:39.269Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="-1hFipVlJiac__-lpTC7" version="21.3.2" type="github">
   <diagram name="Page-1" id="JqpmhVHjBFH6yBuQoyWT">
-    <mxGraphModel>
+    <mxGraphModel dx="1409" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RaT83AMx4zUJ3RECyNax-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RaT83AMx4zUJ3RECyNax-23" target="RaT83AMx4zUJ3RECyNax-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RaT83AMx4zUJ3RECyNax-1" value="Start&lt;br&gt;Welcome message" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="366" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RaT83AMx4zUJ3RECyNax-6" value="Letter wrong" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RaT83AMx4zUJ3RECyNax-2" target="RaT83AMx4zUJ3RECyNax-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RaT83AMx4zUJ3RECyNax-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RaT83AMx4zUJ3RECyNax-2" target="RaT83AMx4zUJ3RECyNax-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RaT83AMx4zUJ3RECyNax-2" value="Chose a letter" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="363" y="505" width="125" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RaT83AMx4zUJ3RECyNax-11" value="Limbs still left" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="RaT83AMx4zUJ3RECyNax-5" target="RaT83AMx4zUJ3RECyNax-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="450" />
+              <mxPoint x="500" y="450" />
+              <mxPoint x="500" y="533" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaT83AMx4zUJ3RECyNax-18" value="All limbs present" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RaT83AMx4zUJ3RECyNax-5" target="RaT83AMx4zUJ3RECyNax-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="1050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="775" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaT83AMx4zUJ3RECyNax-5" value="Add a limb" style="ellipse;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RaT83AMx4zUJ3RECyNax-12" value="Empty letters left to guess" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RaT83AMx4zUJ3RECyNax-7" target="RaT83AMx4zUJ3RECyNax-2">
+          <mxGeometry x="-0.2151" relative="1" as="geometry">
+            <mxPoint x="330" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="450" />
+              <mxPoint x="330" y="450" />
+              <mxPoint x="330" y="533" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaT83AMx4zUJ3RECyNax-13" value="Completed the word" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RaT83AMx4zUJ3RECyNax-7" target="RaT83AMx4zUJ3RECyNax-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="1050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="775" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaT83AMx4zUJ3RECyNax-7" value="Add letter" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RaT83AMx4zUJ3RECyNax-9" value="End game" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="735" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RaT83AMx4zUJ3RECyNax-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RaT83AMx4zUJ3RECyNax-14" target="RaT83AMx4zUJ3RECyNax-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RaT83AMx4zUJ3RECyNax-14" value="Print winning message" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="710" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RaT83AMx4zUJ3RECyNax-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RaT83AMx4zUJ3RECyNax-16" target="RaT83AMx4zUJ3RECyNax-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RaT83AMx4zUJ3RECyNax-16" value="Print losing&lt;br&gt;&amp;nbsp;message" style="triangle;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="505" y="712.5" width="120" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="RaT83AMx4zUJ3RECyNax-20" value="Pick a random word from the list" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="366" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RaT83AMx4zUJ3RECyNax-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RaT83AMx4zUJ3RECyNax-1" target="RaT83AMx4zUJ3RECyNax-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="426" y="60" as="sourcePoint" />
+            <mxPoint x="426" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaT83AMx4zUJ3RECyNax-21" value="Generate a random word list" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="366" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RaT83AMx4zUJ3RECyNax-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RaT83AMx4zUJ3RECyNax-21" target="RaT83AMx4zUJ3RECyNax-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="423" y="180" as="sourcePoint" />
+            <mxPoint x="426" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RaT83AMx4zUJ3RECyNax-23" value="Make blanks for the words letters" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
